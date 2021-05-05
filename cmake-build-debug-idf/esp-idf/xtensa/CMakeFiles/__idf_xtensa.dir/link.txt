@@ -1,0 +1,2 @@
+/usr/bin/ar qc libxtensa.a  CMakeFiles/__idf_xtensa.dir/debug_helpers.c.obj CMakeFiles/__idf_xtensa.dir/debug_helpers_asm.S.obj CMakeFiles/__idf_xtensa.dir/expression_with_stack_xtensa_asm.S.obj CMakeFiles/__idf_xtensa.dir/expression_with_stack_xtensa.c.obj CMakeFiles/__idf_xtensa.dir/eri.c.obj CMakeFiles/__idf_xtensa.dir/trax.c.obj
+/usr/bin/ranlib libxtensa.a

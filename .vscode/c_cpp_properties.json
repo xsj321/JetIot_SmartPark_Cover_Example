@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/components/JetIot/include/**",
+                "/home/xsj321/esp/esp-idf/components/**",
+                "/home/xsj321/esp/esp-idf/examples/common_components/**",
+                "/home/xsj321/.espressif/**",
+                "/home/xsj321/.espressif/tools/xtensa-esp32-elf/**",
+                "/home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/xtensa-esp32-elf/include/sys/**"
+            ],
+            "defines": [],
+            "compilerPath": "/home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-arm",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

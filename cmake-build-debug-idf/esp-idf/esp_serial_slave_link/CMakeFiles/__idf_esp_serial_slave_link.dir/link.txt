@@ -1,0 +1,2 @@
+/usr/bin/ar qc libesp_serial_slave_link.a  CMakeFiles/__idf_esp_serial_slave_link.dir/essl.c.obj CMakeFiles/__idf_esp_serial_slave_link.dir/essl_sdio.c.obj
+/usr/bin/ranlib libesp_serial_slave_link.a

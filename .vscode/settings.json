@@ -1,0 +1,11 @@
+{
+    "git.ignoreLimitWarning": true,
+    "idf.port": "/dev/ttyUSB0",
+    "idf.flashType": "UART",
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "array": "c",
+        "string": "c",
+        "string_view": "c"
+    }
+}

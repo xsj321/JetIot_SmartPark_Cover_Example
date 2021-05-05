@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsdmmc.a  CMakeFiles/__idf_sdmmc.dir/sdmmc_cmd.c.obj CMakeFiles/__idf_sdmmc.dir/sdmmc_common.c.obj CMakeFiles/__idf_sdmmc.dir/sdmmc_init.c.obj CMakeFiles/__idf_sdmmc.dir/sdmmc_io.c.obj CMakeFiles/__idf_sdmmc.dir/sdmmc_mmc.c.obj CMakeFiles/__idf_sdmmc.dir/sdmmc_sd.c.obj
+/usr/bin/ranlib libsdmmc.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmain.a  CMakeFiles/__idf_main.dir/publish_test.c.obj
+/usr/bin/ranlib libmain.a

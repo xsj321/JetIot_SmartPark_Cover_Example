@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmdns.a  CMakeFiles/__idf_mdns.dir/mdns.c.obj CMakeFiles/__idf_mdns.dir/mdns_console.c.obj CMakeFiles/__idf_mdns.dir/mdns_networking.c.obj
+/usr/bin/ranlib libmdns.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libesp_adc_cal.a  CMakeFiles/__idf_esp_adc_cal.dir/esp_adc_cal.c.obj
+/usr/bin/ranlib libesp_adc_cal.a

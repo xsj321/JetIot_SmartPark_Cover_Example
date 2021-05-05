@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblog.a  CMakeFiles/__idf_log.dir/log.c.obj CMakeFiles/__idf_log.dir/log_buffers.c.obj CMakeFiles/__idf_log.dir/log_freertos.c.obj
+/usr/bin/ranlib liblog.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcxx.a  CMakeFiles/__idf_cxx.dir/cxx_exception_stubs.cpp.obj CMakeFiles/__idf_cxx.dir/cxx_guards.cpp.obj
+/usr/bin/ranlib libcxx.a

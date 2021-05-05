@@ -1,0 +1,2 @@
+/usr/bin/ar qc libesp_websocket_client.a  CMakeFiles/__idf_esp_websocket_client.dir/esp_websocket_client.c.obj
+/usr/bin/ranlib libesp_websocket_client.a

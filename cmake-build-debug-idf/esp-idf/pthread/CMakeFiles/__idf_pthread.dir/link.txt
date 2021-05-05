@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpthread.a  CMakeFiles/__idf_pthread.dir/pthread.c.obj CMakeFiles/__idf_pthread.dir/pthread_cond_var.c.obj CMakeFiles/__idf_pthread.dir/pthread_local_storage.c.obj
+/usr/bin/ranlib libpthread.a

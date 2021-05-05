@@ -1,0 +1,38 @@
+/opt/apps/com.jetbrains.clion/files/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_CXX_COMPILER=/home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ -G "CodeBlocks - Unix Makefiles" /home/xsj321/esp/mqtt/publish_test
+-- The C compiler identification is GNU 8.2.0
+-- The CXX compiler identification is GNU 8.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+-- Check for working CXX compiler: /home/xsj321/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Project is not inside a git repository, or git repository has no commits; will not use 'git describe' to determine PROJECT_VER.
+-- Project version: 1
+-- Building ESP-IDF components for target esp32
+-- Checking Python dependencies...
+Python requirements from /home/xsj321/esp/esp-idf/requirements.txt are satisfied.
+-- Found PythonInterp: /usr/bin/python (found version "2.7.16") 
+-- Found Perl: /usr/bin/perl (found version "5.28.1") 
+-- Adding linker script /home/xsj321/esp/mqtt/publish_test/cmake-build-debug-idf/esp-idf/esp32/esp32_out.ld
+-- Adding linker script /home/xsj321/esp/esp-idf/components/esp32/ld/esp32.project.ld.in
+-- Adding linker script /home/xsj321/esp/esp-idf/components/esp32/ld/esp32.peripherals.ld
+-- Adding linker script /home/xsj321/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-time.ld
+-- Adding linker script /home/xsj321/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/xsj321/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/xsj321/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/xsj321/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/xsj321/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Components: DHT11 JetIot app_trace app_update asio bootloader bootloader_support bt cbor coap console cxx driver efuse esp-tls esp32 esp_adc_cal esp_common esp_eth esp_event esp_gdbstub esp_http_client esp_http_server esp_https_ota esp_https_server esp_local_ctrl esp_netif esp_ringbuf esp_rom esp_serial_slave_link esp_websocket_client esp_wifi espcoredump esptool_py expat fatfs freemodbus freertos heap idf_test jsmn json libsodium log lwip main mbedtls mdns mqtt newlib nghttp nvs_flash openssl partition_table perfmon protobuf-c protocol_examples_common protocomm pthread sdmmc soc spi_flash spiffs tcp_transport tcpip_adapter ulp unity vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/xsj321/esp/mqtt/publish_test/components/DHT11 /home/xsj321/esp/mqtt/publish_test/components/JetIot /home/xsj321/esp/esp-idf/components/app_trace /home/xsj321/esp/esp-idf/components/app_update /home/xsj321/esp/esp-idf/components/asio /home/xsj321/esp/esp-idf/components/bootloader /home/xsj321/esp/esp-idf/components/bootloader_support /home/xsj321/esp/esp-idf/components/bt /home/xsj321/esp/esp-idf/components/cbor /home/xsj321/esp/esp-idf/components/coap /home/xsj321/esp/esp-idf/components/console /home/xsj321/esp/esp-idf/components/cxx /home/xsj321/esp/esp-idf/components/driver /home/xsj321/esp/esp-idf/components/efuse /home/xsj321/esp/esp-idf/components/esp-tls /home/xsj321/esp/esp-idf/components/esp32 /home/xsj321/esp/esp-idf/components/esp_adc_cal /home/xsj321/esp/esp-idf/components/esp_common /home/xsj321/esp/esp-idf/components/esp_eth /home/xsj321/esp/esp-idf/components/esp_event /home/xsj321/esp/esp-idf/components/esp_gdbstub /home/xsj321/esp/esp-idf/components/esp_http_client /home/xsj321/esp/esp-idf/components/esp_http_server /home/xsj321/esp/esp-idf/components/esp_https_ota /home/xsj321/esp/esp-idf/components/esp_https_server /home/xsj321/esp/esp-idf/components/esp_local_ctrl /home/xsj321/esp/esp-idf/components/esp_netif /home/xsj321/esp/esp-idf/components/esp_ringbuf /home/xsj321/esp/esp-idf/components/esp_rom /home/xsj321/esp/esp-idf/components/esp_serial_slave_link /home/xsj321/esp/esp-idf/components/esp_websocket_client /home/xsj321/esp/esp-idf/components/esp_wifi /home/xsj321/esp/esp-idf/components/espcoredump /home/xsj321/esp/esp-idf/components/esptool_py /home/xsj321/esp/esp-idf/components/expat /home/xsj321/esp/esp-idf/components/fatfs /home/xsj321/esp/esp-idf/components/freemodbus /home/xsj321/esp/esp-idf/components/freertos /home/xsj321/esp/esp-idf/components/heap /home/xsj321/esp/esp-idf/components/idf_test /home/xsj321/esp/esp-idf/components/jsmn /home/xsj321/esp/esp-idf/components/json /home/xsj321/esp/esp-idf/components/libsodium /home/xsj321/esp/esp-idf/components/log /home/xsj321/esp/esp-idf/components/lwip /home/xsj321/esp/mqtt/publish_test/main /home/xsj321/esp/esp-idf/components/mbedtls /home/xsj321/esp/esp-idf/components/mdns /home/xsj321/esp/esp-idf/components/mqtt /home/xsj321/esp/esp-idf/components/newlib /home/xsj321/esp/esp-idf/components/nghttp /home/xsj321/esp/esp-idf/components/nvs_flash /home/xsj321/esp/esp-idf/components/openssl /home/xsj321/esp/esp-idf/components/partition_table /home/xsj321/esp/esp-idf/components/perfmon /home/xsj321/esp/esp-idf/components/protobuf-c /home/xsj321/esp/esp-idf/examples/common_components/protocol_examples_common /home/xsj321/esp/esp-idf/components/protocomm /home/xsj321/esp/esp-idf/components/pthread /home/xsj321/esp/esp-idf/components/sdmmc /home/xsj321/esp/esp-idf/components/soc /home/xsj321/esp/esp-idf/components/spi_flash /home/xsj321/esp/esp-idf/components/spiffs /home/xsj321/esp/esp-idf/components/tcp_transport /home/xsj321/esp/esp-idf/components/tcpip_adapter /home/xsj321/esp/esp-idf/components/ulp /home/xsj321/esp/esp-idf/components/unity /home/xsj321/esp/esp-idf/components/vfs /home/xsj321/esp/esp-idf/components/wear_levelling /home/xsj321/esp/esp-idf/components/wifi_provisioning /home/xsj321/esp/esp-idf/components/wpa_supplicant /home/xsj321/esp/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xsj321/esp/mqtt/publish_test/cmake-build-debug-idf

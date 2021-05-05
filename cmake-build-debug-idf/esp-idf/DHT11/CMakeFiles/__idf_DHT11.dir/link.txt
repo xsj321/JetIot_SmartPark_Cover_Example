@@ -1,0 +1,2 @@
+/usr/bin/ar qc libDHT11.a  CMakeFiles/__idf_DHT11.dir/dht11.c.obj
+/usr/bin/ranlib libDHT11.a

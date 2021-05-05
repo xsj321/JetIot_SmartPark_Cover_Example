@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"idf.flashType": "UART",
+		"idf.port": "/dev/ttyUSB0",
+		"files.associations": {
+			"*.inc": "c",
+			"freertos.h": "c",
+			"config.h": "c",
+			"jetiot.h": "c",
+			"mqtt_client.h": "c",
+			"optional": "c",
+			"istream": "c",
+			"ostream": "c",
+			"ratio": "c",
+			"system_error": "c",
+			"array": "c",
+			"functional": "c",
+			"tuple": "c",
+			"type_traits": "c",
+			"utility": "c"
+		}
+	}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libprotocol_examples_common.a  CMakeFiles/__idf_protocol_examples_common.dir/connect.c.obj CMakeFiles/__idf_protocol_examples_common.dir/stdin_out.c.obj
+/usr/bin/ranlib libprotocol_examples_common.a
